@@ -31,5 +31,5 @@ if (isset($_POST['sendMailBtn'])) {
     $result = @mail($to, $subject, $message, $headers);
 
     echo '<script>alert("Email sent successfully !")</script>';
-    echo '<script>window.location.href="https://finproj.kevinchen.oucreate.com/index4.html";</script>';
+    echo '<script>window.location.href="https://finproj.kevinchen.oucreate.com/contact.html";</script>';
 }
